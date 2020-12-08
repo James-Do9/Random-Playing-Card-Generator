@@ -9,8 +9,10 @@ window.onload = () => {
   let topSuit = document.querySelector(".topSuit");
   let bottomSuit = document.querySelector(".bottomSuit");
   let img = document.querySelector(".suitIcon");
+  let str = document.querySelector(".their-card");
   let num = generateRandomNumber();
   let suit = generateRandomSuit();
+  str.innerHTML = "Your card is " + num + " of " + suit;
   img.innerHTML = suit;
   topSuit.innerHTML = num + suit;
   bottomSuit.innerHTML = num + suit;

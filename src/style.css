@@ -2,6 +2,21 @@
 body {
   background-image: url("https://images.cdn2.stockunlimited.net/preview1300/playing-cards-background_1608080.jpg");
   background-size: contain;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+.their-card {
+  background-image: linear-gradient(
+    to right,
+    rgb(146, 22, 38),
+    white,
+    rgb(146, 22, 38)
+  );
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  text-shadow: 0 0 3px #ff0000;
+  font-size: 30px;
 }
 h1,
 footer {
