@@ -1,16 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-  background-color: grey;
+  background-image: url("https://images.cdn2.stockunlimited.net/preview1300/playing-cards-background_1608080.jpg");
+  background-size: contain;
+}
+h1,
+footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(146, 22, 38),
+    black,
+    rgb(146, 22, 38),
+    white,
+    rgb(146, 22, 38),
+    black,
+    rgb(146, 22, 38)
+  );
+  text-shadow: 0 0 3px #ff0000;
 }
 .card {
   text-align: center;
   background-color: white;
   border: 1px solid black;
   border-radius: 20px;
+  box-shadow: 5px 10px rgb(146, 22, 38);
   margin: auto;
   height: 600px;
   width: 400px;
-  top: 200px;
   position: relative;
 }
 .topSuit {
@@ -30,4 +45,5 @@ body {
   bottom: 10px;
   right: 20px;
   font-size: 50px;
+  transform: rotate(180deg);
 }

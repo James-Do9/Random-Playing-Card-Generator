@@ -15,9 +15,9 @@ window.onload = () => {
   topSuit.innerHTML = num + suit;
   bottomSuit.innerHTML = num + suit;
   if (suit == "&#9829" || suit == "&#9830") {
-    topSuit.style.color = "red";
-    img.style.color = "red";
-    bottomSuit.style.color = "red";
+    topSuit.style.color = "rgb(146,22,38)";
+    img.style.color = "rgb(146,22,38)";
+    bottomSuit.style.color = "rgb(146,22,38)";
   }
 };
 function generateRandomNumber() {
@@ -34,7 +34,8 @@ function generateRandomNumber() {
     "10",
     "J",
     "Q",
-    "K"
+    "K",
+    "A"
   ];
   let index = Math.floor(Math.random() * numArray.length);
   return numArray[index];
