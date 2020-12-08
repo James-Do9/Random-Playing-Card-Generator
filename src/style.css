@@ -9,9 +9,11 @@ body {
 .their-card {
   background-image: linear-gradient(
     to right,
+    black,
     rgb(146, 22, 38),
     white,
-    rgb(146, 22, 38)
+    rgb(146, 22, 38),
+    black
   );
   border-radius: 20px;
   width: 400px;
